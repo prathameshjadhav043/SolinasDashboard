@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  width: 100%;
+  height: 70px;
+  padding: 10px 40px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(204, 32, 32);
+  color: aliceblue;
+}
+.log {
+  width: 100px;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+}
+.search_bar {
+  width: 300px;
+  padding: 0px 10px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.btn {
+  margin: 8px;
+  padding: 8px;
+  background: #5c88c9;
+  border: 0px solid white;
+  color: #fff;
+  border-radius: 8px;
+}
+.btn:hover {
+  background: #5f9bee;
+}
+.side_menu {
+  background-color: rgb(41, 39, 39);
+  width: 600px;
+  height: 90vh;
+  overflow-y: scroll;
+}
+.side_menu::-webkit-scrollbar {
+  width: 6px;
+  background: #ffffff;
+}
+.side_menu::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  width: 10px;
+  background: #5c88c9;
+}
+.side_menu {
+  color: aliceblue;
+  width: 800px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+li {
+  margin: 40px;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.box {
+  padding: 20px;
+  border-radius: 20px;
+}
+.box_client {
+  margin: auto;
+  width: 90%;
+  height: 180px;
+  background-color: rgb(105, 103, 103);
+}
+.box_def {
+  margin: 10px auto;
+  width: 90%;
+  height: 175px;
+  background-color: rgb(105, 103, 103);
+}
+.defect_main {
+  margin: 10px 0px;
+}
+.label {
+  margin: 40px 0px;
+}
+.sytem_d {
+  margin: 50px 0px;
+}
+.box_clientItem {
+  margin: 10px auto;
+  width: 90%;
+  background-color: rgb(105, 103, 103);
+  height: 100px;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 20px;
+  width: 100%;
+}
+.progress-done {
+  background: linear-gradient(to left, #ac6625, #bac70a);
+  box-shadow: 0 3px 3px -5px #abf270, 0 1px 2px #e05b5631;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+.map {
+  overflow-y: visible;
+  width: 100%;
+}
+.App_component {
+  display: flex;
+}
+section,
+.map_ {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.map ::-webkit-scrollbar {
+  width: 8px;
+  background: #ffffff;
+}
+.map ::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  width: 8px;
+  background: #5c88c9;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .search_bar {
+    width: 110px;
+    height: 30px;
+  }
+  .map_ {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .App_component {
+    flex-direction: column;
+  }
+  .side_menu {
+    width: 100%;
   }
 }
