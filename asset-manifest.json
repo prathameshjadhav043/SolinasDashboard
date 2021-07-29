@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SolinasDashboard/static/css/main.37022c12.chunk.css",
+    "main.js": "/SolinasDashboard/static/js/main.35536753.chunk.js",
+    "main.js.map": "/SolinasDashboard/static/js/main.35536753.chunk.js.map",
+    "runtime-main.js": "/SolinasDashboard/static/js/runtime-main.302afe4a.js",
+    "runtime-main.js.map": "/SolinasDashboard/static/js/runtime-main.302afe4a.js.map",
+    "static/js/2.b9fc9dfc.chunk.js": "/SolinasDashboard/static/js/2.b9fc9dfc.chunk.js",
+    "static/js/2.b9fc9dfc.chunk.js.map": "/SolinasDashboard/static/js/2.b9fc9dfc.chunk.js.map",
+    "index.html": "/SolinasDashboard/index.html",
+    "static/css/main.37022c12.chunk.css.map": "/SolinasDashboard/static/css/main.37022c12.chunk.css.map",
+    "static/js/2.b9fc9dfc.chunk.js.LICENSE.txt": "/SolinasDashboard/static/js/2.b9fc9dfc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.302afe4a.js",
+    "static/js/2.b9fc9dfc.chunk.js",
+    "static/css/main.37022c12.chunk.css",
+    "static/js/main.35536753.chunk.js"
+  ]
+}
